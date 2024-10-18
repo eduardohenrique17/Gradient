@@ -1,0 +1,29 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, orange, green); 
+}
+
+.container {
+    display: flex;
+    gap: 10px; 
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px; 
+    background: linear-gradient(135deg, #6a5acd, #00bfff); 
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(45deg, blue, green); 
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #00bfff, #6a5acd); 
+    transform: scale(1.05); 
+}
